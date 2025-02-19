@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "93aGJfXrXfc=",
+  "dgSpecHash": "F4k/pueVzAc=",
   "success": true,
-  "projectFilePath": "c:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj",
+  "projectFilePath": "C:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caiosantos\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\caiosantos\\.nuget\\packages\\dotnetenv\\3.1.1\\dotnetenv.3.1.1.nupkg.sha512",

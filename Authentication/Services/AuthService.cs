@@ -21,7 +21,16 @@ namespace Authentication.Services
         {
             _context = context;
             _config = config;
+
+            // Validação das variáveis de configuração
+            if (string.IsNullOrEmpty(_config["Jwt:Key"]) ||
+                string.IsNullOrEmpty(_config["Jwt:Issuer"]) ||
+                string.IsNullOrEmpty(_config["Jwt:Audience"]))
+            {
+                throw new Exception("A configuração do JWT não está correta.");
+            }
         }
+
 
         public async Task<bool> UserExists(string username)
         {
@@ -47,7 +56,14 @@ namespace Authentication.Services
 
         public string GenerateToken(User user)
         {
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
+            var jwtKey = Environment.GetEnvironmentVariable("JWT_KEY");
+            if (string.IsNullOrEmpty(jwtKey))
+            {
+                throw new Exception("JWT_KEY não foi carregado corretamente.");
+            }
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(jwtKey));
+
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var claims = new[]

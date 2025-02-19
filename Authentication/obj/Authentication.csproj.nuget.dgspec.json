@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj": {}
+    "C:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj": {}
   },
   "projects": {
-    "c:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj": {
+    "C:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj",
+        "projectUniqueName": "C:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj",
         "projectName": "Authentication",
-        "projectPath": "c:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj",
+        "projectPath": "C:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj",
         "packagesPath": "C:\\Users\\caiosantos\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\obj\\",
+        "outputPath": "C:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caiosantos\\AppData\\Roaming\\NuGet\\NuGet.Config",

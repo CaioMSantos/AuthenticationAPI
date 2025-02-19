@@ -1,3 +1,4 @@
+C:\Users\caiosantos\Desktop\Estudos\Projetos\Authentication\bin\Debug\net9.0\appsettings.json
 C:\Users\caiosantos\Desktop\Estudos\Projetos\Authentication\bin\Debug\net9.0\Authentication.staticwebassets.endpoints.json
 C:\Users\caiosantos\Desktop\Estudos\Projetos\Authentication\bin\Debug\net9.0\Authentication.exe
 C:\Users\caiosantos\Desktop\Estudos\Projetos\Authentication\bin\Debug\net9.0\Authentication.deps.json
