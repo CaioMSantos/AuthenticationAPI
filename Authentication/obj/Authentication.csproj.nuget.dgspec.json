@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj": {}
+    "c:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj": {
+    "c:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj",
+        "projectUniqueName": "c:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj",
         "projectName": "Authentication",
-        "projectPath": "C:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj",
+        "projectPath": "c:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\Authentication.csproj",
         "packagesPath": "C:\\Users\\caiosantos\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\obj\\",
+        "outputPath": "c:\\Users\\caiosantos\\Desktop\\Estudos\\Projetos\\Authentication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caiosantos\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,6 +49,10 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
